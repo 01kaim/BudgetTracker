@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Budget Tracker</string>
+    <!-- TODO: Remove or change this plaOnboarding_1ceholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Title_Onboarding1">Get inspired</string>
+    <string name="Title_Onboarding2">Easy &amp; Better</string>
+    <string name="Title_Onboarding3">Save Your Money</string>
+    <string name="Discription_Onboarding">Lorem ipsum dolor sit amet,
+ consectetuer adipiscing elit, sed diam </string>
 </resources>

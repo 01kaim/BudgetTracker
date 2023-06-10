@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/OnboardingFragment_2"
+    tools:context=".fragment.OnboardingFragment_2">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_onboarding2"
+        android:layout_marginTop="90dp"
+        android:outlineSpotShadowColor="@color/Lblack"
+        android:outlineAmbientShadowColor="@color/Lblack"
+        android:layout_gravity="center|top"/>
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="240dp"
+        android:id="@+id/layout_b2"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/Lblack"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textSize="@dimen/Title_2"
+            android:text="@string/Title_Onboarding2"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:padding="20dp"
+            android:layout_height="wrap_content"
+            android:text="Lorem ipsum dolor sit amet,
+ consectetuer adipiscing elit, sed diam "
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="@dimen/Subtitle"
+            android:textAlignment="center"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/id_lyt_signup_2"
+        android:layout_gravity="bottom"
+        android:layout_below="@id/layout_b1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        >
+        <!--style="@style/MaterialAlertDialog.Material3.Title.Text"
+        -->
+
+        <!-- style="@style/MaterialAlertDialog.Material3.Body.Text"
+                  -->
+        <Button
+            android:id="@+id/id_B2_skip"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:textColor="@color/Lblack"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:background="@color/white"
+            android:padding="10dp"
+            android:text="Skip"
+            android:textSize="@dimen/Body_text" />
+
+        <Button
+            android:id="@+id/id_B2_next"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/id_B2_skip"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="end"
+            android:layout_marginStart="180dp"
+            android:layout_toEndOf="@id/id_B2_skip"
+            android:background="@color/white"
+            android:drawableEnd="@drawable/ic_next"
+            android:padding="10dp"
+            android:text="Next"
+            android:textColor="@color/Lblack"
+            android:textSize="@dimen/Body_text" />
+    </RelativeLayout>
+
+</FrameLayout>

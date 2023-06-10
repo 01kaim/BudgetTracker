@@ -37,7 +37,7 @@ public class SplashActivity extends AppCompatActivity {
                 startActivity(intent);
                 finish();
             }
-        }, 6000); // 3000 is the delayed time in milliseconds
+        }, 3000); // 3000 is the delayed time in milliseconds
 
 
     }
