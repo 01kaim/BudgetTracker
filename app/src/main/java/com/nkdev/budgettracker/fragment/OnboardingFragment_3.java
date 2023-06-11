@@ -12,6 +12,7 @@ import android.widget.Button;
 
 import com.nkdev.budgettracker.MainActivity;
 import com.nkdev.budgettracker.R;
+import com.nkdev.budgettracker.activities.LoginActivity;
 
 
 public class OnboardingFragment_3 extends Fragment {
@@ -25,7 +26,7 @@ Button BtnGetstarted;
        BtnGetstarted.setOnClickListener(new View.OnClickListener() {
            @Override
            public void onClick(View v) {
-               Intent intent=new Intent(getContext(), MainActivity.class);
+               Intent intent=new Intent(getContext(), LoginActivity.class);
                startActivity(intent);
            }
        });

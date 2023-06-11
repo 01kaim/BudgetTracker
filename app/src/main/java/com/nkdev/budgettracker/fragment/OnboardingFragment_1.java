@@ -14,6 +14,7 @@ import android.widget.Button;
 
 import com.nkdev.budgettracker.MainActivity;
 import com.nkdev.budgettracker.R;
+import com.nkdev.budgettracker.activities.LoginActivity;
 
 
 public class OnboardingFragment_1 extends Fragment {
@@ -30,7 +31,7 @@ public class OnboardingFragment_1 extends Fragment {
             @Override
             public void onClick(View v) {
                 // Create an intent to start the target activity
-                Intent intent = new Intent(getActivity(), MainActivity.class);
+                Intent intent = new Intent(getActivity(), LoginActivity.class);
                 startActivity(intent);
             }
         });

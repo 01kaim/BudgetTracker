@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.LoginActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout
+            android:id="@+id/id_lyt_lg_1"
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+            android:gravity="center"
+            android:orientation="vertical"
+
+            >
+
+            <ImageView
+                android:id="@+id/id_img_log"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:src="@drawable/ic_budget_tracker" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_below="@+id/id_lyt_lg_1"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Log-in"
+                android:fontFamily="serif"
+                android:textStyle="bold"
+                android:textSize="@dimen/Title"
+                android:layout_gravity="left"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:id="@+id/id_txt_log"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/id_lyt_label"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/id_txt_log">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Email"
+                    android:id="@+id/id_txt_email"
+                    android:layout_marginLeft="40dp"
+                    android:textSize="@dimen/Subtitle"
+
+                    android:layout_gravity="left"
+                    />
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp"
+                    >
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Email"
+                        android:textColorHint="@color/Lblack"
+                        app:boxStrokeColor="@color/Lblack"
+                        app:boxStrokeWidthFocused="2dp"
+                        app:endIconMode="clear_text"
+                        app:endIconTint="@color/Lblack"
+                        app:hintTextColor="@color/Lblack"
+                        app:startIconTint="@color/Lblack">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/id_email_log"
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:textSize="@dimen/Details"
+
+                            android:textColor="@color/Lblack"
+                            android:background="@color/Lwhite"
+                            android:inputType="textEmailAddress" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Password"
+                        android:textColor="@color/Lblack"
+                        android:layout_marginTop="10dp"
+                        android:id="@+id/id_txt_pswd"
+                        android:layout_marginLeft="40dp"
+                        android:textSize="@dimen/Subtitle"
+                        android:layout_gravity="left"
+                        />
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Password"
+                        android:layout_gravity="center"
+                        android:textColorHint="@color/Lblack"
+                        app:boxStrokeColor="@color/Lblack"
+                        app:boxStrokeWidthFocused="2dp"
+                        app:endIconTint="@color/Lblack"
+                        app:hintTextColor="@color/Lblack"
+                        app:passwordToggleEnabled="true"
+                        app:passwordToggleTint="@color/Lblack"
+                        app:startIconTint="@color/Lblack">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/id_password_log"
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:textSize="@dimen/Details"
+                            android:background="@color/Lwhite"
+                            android:inputType="textPersonName|textEmailAddress" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+                </LinearLayout>
+                <RelativeLayout
+                    android:id="@+id/forget_password_block"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/Password">
+
+                    <CheckBox
+                        android:id="@+id/remember_me"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:buttonTint="@color/Lblack"
+                        android:text="remember me"
+                        android:textColor="@color/Lblack"
+                        android:textSize="@dimen/Subtitle" />
+
+                    <Button
+                        android:id="@+id/id_BtnForget"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/remember_me"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="-40dp"
+                        android:layout_toEndOf="@+id/remember_me"
+                        android:background="#00000000"
+                        android:elevation="0dp"
+                        android:textColor="@color/Lblack"
+                        android:text="Forget password ?"
+                        android:textSize="@dimen/Body_text" />
+
+                </RelativeLayout>
+
+                <!-- here -->
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/id_BtnForget"
+                    android:layout_gravity="center"
+                    android:padding="10dp">
+
+                    <Button
+                        android:id="@+id/id_btnLogin"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:background="@drawable/button_corner_red"
+                        android:gravity="center"
+                        android:text="Login"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/Subtitle"
+                        android:textStyle="bold" />
+                    <!-- ProgressBar for Loading Time -->
+                    <ProgressBar
+                        android:id="@+id/progressbar"
+
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_alignBottom="@+id/id_btnLogin"
+                        android:visibility="gone" />
+
+                    <Button
+                        android:id="@+id/id_btnGmail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:layout_below="@+id/id_btnLogin"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="7dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@drawable/button_corner_b"
+                        android:drawableStart="@drawable/ic_gmail"
+                        android:gravity="center"
+                        android:text="Sign in with Gmail"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/Subtitle"
+                        android:textStyle="bold"
+                        app:icon="@drawable/ic_gmail" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/id_btnGmail"
+                        android:layout_gravity="center"
+                        android:padding="10dp"
+                        android:text="Don`t  have  an  account  ?"
+                        android:textColor="@color/Lblack"
+                        android:textSize="@dimen/Body_text" />
+
+                    <Button
+                        android:id="@+id/id_BtnLog_register"
+                        style="@style/Widget.MaterialComponents.Button.TextButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/id_btnGmail"
+                        android:layout_alignParentEnd="true"
+                        android:layout_gravity="center"
+                        android:layout_marginEnd="30dp"
+                        android:background="#00000000"
+                        android:padding="10dp"
+                        android:text=" SING UP"
+                        android:textColor="@color/Lblack"
+                        android:textSize="@dimen/Body_text"
+                        android:textStyle="normal" />
+
+
+
+                </RelativeLayout>
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

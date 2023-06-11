@@ -67,7 +67,6 @@
     android:text="Get  Started"
     android:textColor="@color/Lblack"
     android:textSize="@dimen/Title"
-
     android:layout_marginBottom="20dp"
 
 />
