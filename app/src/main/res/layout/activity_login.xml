@@ -160,8 +160,8 @@
                         android:layout_toEndOf="@+id/remember_me"
                         android:background="#00000000"
                         android:elevation="0dp"
-                        android:textColor="@color/Lblack"
                         android:text="Forget password ?"
+                        android:textColor="@color/Lblack"
                         android:textSize="@dimen/Body_text" />
 
                 </RelativeLayout>
