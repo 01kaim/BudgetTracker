@@ -57,6 +57,12 @@ public class LoginActivity extends AppCompatActivity {
         EmailText=findViewById(R.id.id_email_log);
         PasswordText=findViewById(R.id.id_password_log);
         progressbar = findViewById(R.id.progressbar);
+        Btn_new_reg.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(LoginActivity.this,RegisterActivity.class));
+            }
+        });
         Btn_frgt.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
