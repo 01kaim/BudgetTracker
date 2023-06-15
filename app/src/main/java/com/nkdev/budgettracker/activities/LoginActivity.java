@@ -136,7 +136,7 @@ public class LoginActivity extends AppCompatActivity {
 
                             // if sign-in is successful
                             // intent to home activity
-                            Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+                            Intent intent = new Intent(LoginActivity.this, Dashboardctivity.class);
                             startActivity(intent);
                             finish(); // Destroy activity A and not exist in Back stack
 
@@ -201,7 +201,7 @@ public class LoginActivity extends AppCompatActivity {
                         if (task.isSuccessful()) {
                             // Sign in success, update UI with the signed-in user's information
                             FirebaseUser user = mAuth.getCurrentUser();
-                            Intent intent = new Intent(LoginActivity.this,MainActivity.class);
+                            Intent intent = new Intent(LoginActivity.this,Dashboardctivity.class);
                             startActivity(intent);
 
 

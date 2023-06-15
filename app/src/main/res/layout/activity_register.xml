@@ -80,7 +80,8 @@
                 android:id="@+id/id_Name_reg"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:background="@color/Lwhite"
+                android:background="@drawable/corner_edittext"
+
 
                 android:inputType="text"
                 android:textColor="@color/Lblack"
@@ -114,10 +115,11 @@
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/id_email_reg"
+                android:focusable="true"
+                android:clickable="true"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:background="@color/Lwhite"
-
+                android:background="@drawable/corner_edittext"
                 android:inputType="textEmailAddress"
                 android:textColor="@color/Lblack"
                 android:textSize="@dimen/Details" />
@@ -154,7 +156,7 @@
                 android:id="@+id/id_password_reg"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:background="@color/Lwhite"
+                android:background="@drawable/corner_edittext"
                 android:inputType="textPersonName|textEmailAddress"
                 android:textSize="@dimen/Details" />
 

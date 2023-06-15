@@ -7,14 +7,20 @@
         <entry key="..\:/Users/HP/Documents/Food app icons/BudgetTracker3/app/src/main/res/drawable/button_corner_b.xml" value="0.1425" />
         <entry key="..\:/Users/HP/Documents/Food app icons/BudgetTracker3/app/src/main/res/drawable/button_corner_red.xml" value="0.1425" />
         <entry key="..\:/Users/HP/Documents/Food app icons/BudgetTracker3/app/src/main/res/drawable/circle.xml" value="0.1205" />
+        <entry key="..\:/Users/HP/Documents/Food app icons/BudgetTracker3/app/src/main/res/drawable/corner_edittext.xml" value="0.1" />
+        <entry key="..\:/Users/HP/Documents/Food app icons/BudgetTracker3/app/src/main/res/drawable/ic_bookmark.xml" value="0.15" />
         <entry key="..\:/Users/HP/Documents/Food app icons/BudgetTracker3/app/src/main/res/drawable/ic_email.xml" value="0.1425" />
         <entry key="..\:/Users/HP/Documents/Food app icons/BudgetTracker3/app/src/main/res/drawable/ic_gmail.xml" value="0.1425" />
+        <entry key="..\:/Users/HP/Documents/Food app icons/BudgetTracker3/app/src/main/res/drawable/ic_image.xml" value="0.15" />
         <entry key="..\:/Users/HP/Documents/Food app icons/BudgetTracker3/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1205" />
         <entry key="..\:/Users/HP/Documents/Food app icons/BudgetTracker3/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.1205" />
         <entry key="..\:/Users/HP/Documents/Food app icons/BudgetTracker3/app/src/main/res/drawable/ic_next.xml" value="0.181" />
         <entry key="..\:/Users/HP/Documents/Food app icons/BudgetTracker3/app/src/main/res/drawable/ic_onboarding2.xml" value="0.1365" />
+        <entry key="..\:/Users/HP/Documents/Food app icons/BudgetTracker3/app/src/main/res/drawable/ic_reminder.xml" value="0.15" />
+        <entry key="..\:/Users/HP/Documents/Food app icons/BudgetTracker3/app/src/main/res/drawable/ic_wallet.xml" value="0.1" />
         <entry key="..\:/Users/HP/Documents/Food app icons/BudgetTracker3/app/src/main/res/drawable/layout_corner.xml" value="0.1435" />
         <entry key="..\:/Users/HP/Documents/Food app icons/BudgetTracker3/app/src/main/res/drawable/red_circle.xml" value="0.1435" />
+        <entry key="..\:/Users/HP/Documents/Food app icons/BudgetTracker3/app/src/main/res/layout/activity_dashboardctivity.xml" value="0.25" />
         <entry key="..\:/Users/HP/Documents/Food app icons/BudgetTracker3/app/src/main/res/layout/activity_forget_password1.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/HP/Documents/Food app icons/BudgetTracker3/app/src/main/res/layout/activity_forgot_password.xml" value="0.12" />
         <entry key="..\:/Users/HP/Documents/Food app icons/BudgetTracker3/app/src/main/res/layout/activity_login.xml" value="0.18" />
@@ -25,6 +31,8 @@
         <entry key="..\:/Users/HP/Documents/Food app icons/BudgetTracker3/app/src/main/res/layout/fragment_onboarding_1.xml" value="0.25" />
         <entry key="..\:/Users/HP/Documents/Food app icons/BudgetTracker3/app/src/main/res/layout/fragment_onboarding_2.xml" value="0.1859375" />
         <entry key="..\:/Users/HP/Documents/Food app icons/BudgetTracker3/app/src/main/res/layout/fragment_onboarding_3.xml" value="0.16" />
+        <entry key="..\:/Users/HP/Documents/Food app icons/BudgetTracker3/app/src/main/res/layout/item_list.xml" value="0.67" />
+        <entry key="..\:/Users/HP/Documents/Food app icons/BudgetTracker3/app/src/main/res/layout/new_item_list.xml" value="0.20416666666666666" />
       </map>
     </option>
   </component>
