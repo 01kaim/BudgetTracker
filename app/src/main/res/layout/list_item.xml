@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_margin="2dp"
+    android:layout_height="wrap_content">
+
+
+        <androidx.cardview.widget.CardView
+            android:padding="10dp"
+            app:cardBackgroundColor="@drawable/border_black"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            app:cardElevation="4dp"
+            app:cardCornerRadius="10dp"
+            app:cardMaxElevation="2dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true"
+            android:layout_gravity="left"
+            android:id="@+id/id_crdv_month"
+            android:clickable="true"
+            android:focusable="true">
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="5dp"
+                android:layout_gravity="left|center"
+                android:scaleType="centerCrop"
+                app:cardBackgroundColor="@color/Lgray"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_gravity="left|center"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_image"
+                    android:id="@+id/id_image_list"
+                    />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/id_items"
+                android:text="text"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="50dp"
+                android:textSize="12dp"
+                android:layout_toRightOf="@+id/id_image_list"
+                android:gravity="left"   />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/id_date"
+                android:textSize="12dp"
+                android:text="data"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginStart="50dp"
+                android:layout_toRightOf="@+id/id_image_list"
+                android:gravity="left"   />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/id_mounth"
+                android:text="text"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="300dp"
+                android:textSize="12dp"
+                android:gravity="right"   />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/id_type_pay"
+                android:textSize="12dp"
+                android:text="data"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginStart="300dp"
+                android:layout_toRightOf="@+id/id_image_list"
+                android:gravity="right"   />
+        </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>
