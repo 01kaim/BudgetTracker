@@ -82,7 +82,7 @@
                 android:layout_height="60dp"
                 android:background="@drawable/corner_edittext"
 
-
+                android:padding="5px"
                 android:inputType="text"
                 android:textColor="@color/Lblack"
                 android:textSize="@dimen/Details" />
@@ -117,6 +117,7 @@
                 android:id="@+id/id_email_reg"
                 android:focusable="true"
                 android:clickable="true"
+                android:padding="5px"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:background="@drawable/corner_edittext"
@@ -156,6 +157,7 @@
                 android:id="@+id/id_password_reg"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
+                android:padding="5px"
                 android:background="@drawable/corner_edittext"
                 android:inputType="textPersonName|textEmailAddress"
                 android:textSize="@dimen/Details" />
@@ -177,11 +179,11 @@
                 android:textStyle="bold"
                 android:layout_gravity="center"
                 android:layout_marginStart="20dp"
-                android:textSize="@dimen/Title_2"
+                android:textSize="@dimen/Subtitle"
                 android:textColor="@color/Lblack"/>
             <ImageButton
-                android:layout_width="80dp"
-                android:layout_height="80dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:layout_gravity="end"
                 android:gravity="end"
                 android:id="@+id/id_BtnSubReg"
